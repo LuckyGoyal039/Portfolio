@@ -1,0 +1,22 @@
+
+#footer{
+    position: relative;
+    top:220px;
+}
+
+
+.textColor {
+    color: #FAF9F6;
+}
+
+.flexBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.media {
+    /* border-bottom: 1px solid #FAF9F6; */
+    padding-bottom: 50px;
+
+}

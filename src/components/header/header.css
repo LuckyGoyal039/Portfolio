@@ -1,0 +1,30 @@
+.headerOuter {
+    margin: 0;
+    padding-left: 3rem;
+    color: #fff;
+}
+
+.outerContainer {
+    background-color: #1e1e1e;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+.textColor {
+    color: #FAF9F6;
+}
+
+.hamburger {
+    color: #FAF9F6;
+    border-color: #FAF9F6;
+    ;
+}
+
+/* .navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;..");
+} */
+
+/* .navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;..");
+} */

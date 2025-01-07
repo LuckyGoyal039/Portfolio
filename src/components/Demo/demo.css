@@ -1,0 +1,16 @@
+.circular-image {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.rotating-text {
+    position: relative;
+    width: 200px;
+    /* Should match image width */
+    height: 200px;
+    /* Should match image height */
+    border: 1px solid black;
+    /* For visualization */
+}

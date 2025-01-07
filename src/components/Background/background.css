@@ -1,0 +1,41 @@
+.icons {
+    font-size: small;
+}
+
+.flexBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vertical-timeline::before {
+    /* this is the vertical line */
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 18px;
+    height: 100%;
+    width: 4px;
+    background: black;
+    background: var(--line-color);
+}
+
+#background {
+    position: relative;
+    top: 130px;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 10px;
+    gap: 10px;
+
+    @media (min-width:900px) {
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 0;
+    }
+}

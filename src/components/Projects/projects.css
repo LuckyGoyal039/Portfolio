@@ -1,0 +1,12 @@
+.flexBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#projects{
+    position: relative;
+    top:190px;
+}
+.heading{
+    margin-bottom: 30px;
+}
