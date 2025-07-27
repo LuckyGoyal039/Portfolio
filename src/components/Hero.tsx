@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
-import LuckyGoyalImage from ""
+// import LuckyGoyalImage from ""
 const Hero = () => {
   const delay = (val: number) => ({
     hidden: { scale: 0.8, opacity: 0 },
